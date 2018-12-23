@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hien.androidwallpaper.UploadWallpaper">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:id="@+id/spinner"
+            android:spinnerMode="dialog"
+            android:overlapAnchor="false"
+            app:ms_dropdown_height="wrap_content"
+            app:ms_dropdown_max_height="350dp"
+            android:layout_weight="0.75"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_weight="9.25"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:src="@drawable/no_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnBrowser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/custom_button"
+                android:text="Browser"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/custom_button"
+                android:text="Upload"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

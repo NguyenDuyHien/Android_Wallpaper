@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "440873753990",
+    "firebase_url": "https://android-wallpaper-f2925.firebaseio.com",
+    "project_id": "android-wallpaper-f2925",
+    "storage_bucket": "android-wallpaper-f2925.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440873753990:android:bebbdf457556a61e",
+        "android_client_info": {
+          "package_name": "com.example.hien.androidwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440873753990-aau5uopmd3r1cvktfhoi5ih5k57m5g75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hien.androidwallpaper",
+            "certificate_hash": "9dd64004521dcc4a6af5faf2aae808ef8429b662"
+          }
+        },
+        {
+          "client_id": "440873753990-jt7ddrlfe6931l2nne4ka8ag1vqs0bsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlHTu288FGPEzsxSrGvMuVj8VQqXNuUeE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440873753990-jt7ddrlfe6931l2nne4ka8ag1vqs0bsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
